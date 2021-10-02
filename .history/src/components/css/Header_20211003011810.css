@@ -1,0 +1,21 @@
+
+@media only screen and (max-width: 568px){
+    .navbar {
+    display: list-item;
+    position: fixed;
+    background: white;
+    z-index: 999;
+    width: 100%;
+	margin-top: -1px;
+    }
+}
+.biendem{
+	position: absolute;
+    margin-top: -0.5rem;
+    margin-left: 0.6rem;
+    padding: .2em .45em;
+    background: #ff3f34;
+    border-radius: 70%;
+    font-size: 9px;
+    color: white;
+}

@@ -1,0 +1,13 @@
+
+@media only screen and (max-width: 568px){
+    .navbar {
+    display: list-item;
+    position: fixed;
+    background: white;
+    z-index: 999;
+    width: 100%;
+    height: 96px;
+    margin-top: -100px;
+	fo
+    }
+}
