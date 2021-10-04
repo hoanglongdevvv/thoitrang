@@ -67,7 +67,7 @@ class Login extends Component {
 
             //phần đăng nhập 
             <div className="form_block" >
-                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi9hATuhsqjuCWaSIufeO0-3jlEQE95XAS81M5N9GdkO6HZ5gweGMWkOotFz09XTPVmvKuoAg5yfNy--x7Bne4Iyr3FAa7nhlD-LqiXK45VtawL_NKlo6vsI5XiXbCENy03cfFaXO_qUO_k4DGBFBj6jnAhzAd8UgHFpRKbcRTXKlXTBiiPWT9jhjdv7w" alt="Logo" width="100%" height="300px" />
+                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi9hATuhsqjuCWaSIufeO0-3jlEQE95XAS81M5N9GdkO6HZ5gweGMWkOotFz09XTPVmvKuoAg5yfNy--x7Bne4Iyr3FAa7nhlD-LqiXK45VtawL_NKlo6vsI5XiXbCENy03cfFaXO_qUO_k4DGBFBj6jnAhzAd8UgHFpRKbcRTXKlXTBiiPWT9jhjdv7w" alt="Logo" width="100%" height="400px" />
                 <div id="title">{this.state.formTitle}</div>
                 <div className="body">
                     {errorNotification}
