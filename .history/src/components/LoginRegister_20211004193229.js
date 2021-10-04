@@ -66,8 +66,8 @@ class Login extends Component {
 
 
             //phần đăng nhập 
-            <div className="form_block">
-                <img src="/Imgs/logologin.png" alt="Logo" width="100%" height="250px" />
+            <div className="form_block"  style={{backgroundColor: '#c8d6e5'}}>
+                <img src="https://dcassetcdn.com/design_img/205542/136945/136945_2323634_205542_image.png" alt="Logo" width="100%" height="200px" />
                 <div id="title">{this.state.formTitle}</div>
                 <div className="body">
                     {errorNotification}
