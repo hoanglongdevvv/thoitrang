@@ -17,7 +17,7 @@ export class Header extends Component {
         return (
             <div>
                 {/* Navbar */}
-                <nav className="hoanglong navbar navbar-expand-lg navbar-white bg-white">
+                <nav className="hoanglongnavbar navbar-expand-lg navbar-white bg-white">
                     {/* Container wrapper */}
                     <div className="container-fluid" style={{background:'white'}}>
                         {/* Toggle button */}

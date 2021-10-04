@@ -61,6 +61,10 @@ class Login extends Component {
 
         return(
 
+
+
+
+
             //phần đăng nhập 
             <div className="form_block">
                 <img src="/Imgs/logologin.png" alt="Logo" width="100%" height="300px" />
@@ -74,7 +78,7 @@ class Login extends Component {
                         value={this.state.email} 
                         onChange={this.handleChange} 
                         name="email" />
-                    <label for="loginPassword" id="long_nhap_pass">Mật khẩu</label>
+                    <label for="loginPassword" id="vuong_nhap_pass">Mật khẩu</label>
                         <input type="password" 
                         value={this.state.password} 
                         onChange={this.handleChange} 
