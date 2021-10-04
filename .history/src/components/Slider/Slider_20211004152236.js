@@ -1,5 +1,4 @@
 import React from "react";
-import './Slider.scss'
 function Silde() {
     return(
         <div id="carouselExampleIndicators" className="carousel slide" data-mdb-ride="carousel">
@@ -7,19 +6,16 @@ function Silde() {
           <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
           <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to={1} aria-label="Slide 2" />
           <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to={2} aria-label="Slide 3" />
-          <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to={3} aria-label="Slide 4" />
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="./Imgs/img1.png" className="slide d-block w-100" alt="..." />
+            <img src="/public/" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="./Imgs/img2.png" className="slide d-block w-100" alt="..." />
+            <img src="https://mdbootstrap.com/img/new/slides/042.jpg" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="./Imgs/img3.png" className="slide d-block w-100" alt="..." />
-          </div>  <div className="carousel-item">
-            <img src="./Imgs/img4.png" className="slide d-block w-100" alt="..." />
+            <img src="https://mdbootstrap.com/img/new/slides/043.jpg" className="d-block w-100" alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">

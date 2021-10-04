@@ -1,6 +1,11 @@
 @media only screen and (max-width: 568px) {
 	.slide {
-		margin-top: 23px;
+		display: list-item;
+		position: fixed;
+		background: white;
+		z-index: 999;
+		width: 100%;
+		margin-top: -1px;
 	}
 }
 
