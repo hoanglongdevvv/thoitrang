@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import fire from '../config/Fire';
+impo
 class Login extends Component {
     constructor(props){
         super(props);
@@ -54,8 +55,8 @@ class Login extends Component {
             (<button className="btn btn-primary btn-sm" onClick={() => this.getAction('login')}>Đăng nhập</button>);
             
         let dangky_dangnhap = this.state.loginBtn ?
-            (<label>Bạn chưa có tài khoản ?</label>) :
-            (<label>Bạn đã tài khoản ?</label>)
+            (<Showdangnhap>Bạn chưa có tài khoản ?</Showdangnhap>) :
+            (<Showdangky>Bạn đã tài khoản ?</Showdangky>)
 
 
         return(
@@ -68,12 +69,12 @@ class Login extends Component {
                     {errorNotification}
             
                     <form>
-                    <label className="loginEmail" id="long_nhap_email">Email</label>
+                    <label for="loginEmail" id="long_nhap_email">Email</label>
                         <input type="text" 
                         value={this.state.email} 
                         onChange={this.handleChange} 
                         name="email" />
-                    <label className="loginPassword" id="long_nhap_pass">Mật khẩu</label>
+                    <label for="loginPassword" id="long_nhap_pass">Mật khẩu</label>
                         <input type="password" 
                         value={this.state.password} 
                         onChange={this.handleChange} 
