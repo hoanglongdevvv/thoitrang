@@ -66,8 +66,8 @@ class Login extends Component {
 
 
             //phần đăng nhập 
-            <div className="form_block" >
-                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEguNg0SPeeBlChD63nd1WJaL_lGn6R4BT_2LH3Qz7KVbjxKupHzC578eptFkOYx8MHHJrw8lwi_a6HvPKtZ2UkAD1YjQZxr4GkKJY_yzUtsQXk7ikmxUxXp0ECnIIBl0NjAG1ctIqKZc_4I4vquyCG08tb-lMRxwwpfAPXpdTRVehPuCXPAL5ymCBzjGg=s320" alt="Logo" width="100%" height="300px" />
+            <div className="form_block"  style={{backgroundColor: '#c8d6e5'}}>
+                <img src="https://dcassetcdn.com/design_img/205542/136945/136945_2323634_205542_image.png" alt="Logo" width="100%" height="200px" />
                 <div id="title">{this.state.formTitle}</div>
                 <div className="body">
                     {errorNotification}
@@ -78,7 +78,7 @@ class Login extends Component {
                         value={this.state.email} 
                         onChange={this.handleChange} 
                         name="email" />
-                    <label for="loginPassword" id="long_nhap_pass">Mật khẩu</label>
+                    <label for="loginPassword" id="vuong_nhap_pass">Mật khẩu</label>
                         <input type="password" 
                         value={this.state.password} 
                         onChange={this.handleChange} 

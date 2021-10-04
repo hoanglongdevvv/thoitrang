@@ -66,7 +66,7 @@ class Login extends Component {
 
 
             //phần đăng nhập 
-            <div className="form_block" >
+            <div className="form_block"  style={{backgroundColor: '#c8d6e5'}}>
                 <img src="https://blogger.googleusercontent.com/img/a/AVvXsEguNg0SPeeBlChD63nd1WJaL_lGn6R4BT_2LH3Qz7KVbjxKupHzC578eptFkOYx8MHHJrw8lwi_a6HvPKtZ2UkAD1YjQZxr4GkKJY_yzUtsQXk7ikmxUxXp0ECnIIBl0NjAG1ctIqKZc_4I4vquyCG08tb-lMRxwwpfAPXpdTRVehPuCXPAL5ymCBzjGg=s320" alt="Logo" width="100%" height="300px" />
                 <div id="title">{this.state.formTitle}</div>
                 <div className="body">
