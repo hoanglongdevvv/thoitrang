@@ -1,0 +1,28 @@
+.daylaform{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background: #f5f6fa;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px #ced6e0;
+}
+
+
+@media only screen and (max-width: 568px) {
+	.daylaform{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 299px;
+        background: rgb(245, 246, 250);
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 1px solid rgb(221, 221, 221);
+        box-shadow: rgb(206 214 224) 0px 0px 20px;
+        
+}

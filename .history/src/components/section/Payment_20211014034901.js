@@ -14,8 +14,11 @@ export class Payment extends Component {
                     className="daylaform"
                     accept-charset="UTF-8"
                     action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSep5Eg7f7SV4WFvd-T5PQlG-MJBP82HETRsbd3eQIC3WQx2dQ/formResponse"
-                  >
-                  
+                    // style={{
+                    //     display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '500px', background: '#f5f6fa', fontSize: '20px', fontWeight: 'bold', borderRadius: '10px', border: '1px solid #ddd', boxShadow: '0 0 20px #ced6e0',
+                        
+                    // }}>
+                    {/* Email input */}
                     <div className="form-outline  mb-4">
                         <label className="form-label" htmlFor="form4Example1">Họ Và Tên</label>
                         <input type="text" name="entry.589521639" text="kaipro" />
