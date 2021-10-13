@@ -1,0 +1,8 @@
+.dulieu  {
+    min-height: auto;
+    padding: .33em .75em;
+    border: 4;
+    background: transparent;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
