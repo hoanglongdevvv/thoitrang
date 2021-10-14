@@ -78,8 +78,8 @@ export class DataProvider extends Component {
           },
           {
               "_id": "8",
-              "title": "Áo Len ATN250",
-              "src": "https://media.canifa.com/catalog/product/8/t/8te20w019-se254-1.jpg",
+              "title": "Áo thun ATN250",
+              "src": "",
               "description": "Hàng Nhập Từ Quãng Châu",
               "Content": "Vải được dệt bằng 65% sợi bông tự nhiên và 35% sợi tổng hợp. Đây là loại vải kinh tế, bền, đẹp được các bạn sinh viên học sinh sử dụng nhiều nhất Màu sắc đa dạng, có thể đặt với số lượng ít với tất cả các màu.",
               "price": 60,
